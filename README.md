@@ -1,2 +1,42 @@
 # C99Compiler
-C99 Compiler for course CS432, Computer Science Department - University of Tripoli - Tripoli- Libya
+
+**C99 Compiler** developed for the course **CS432**  
+Department of Computer Science, University of Tripoli — Tripoli, Libya
+
+---
+
+## Project Overview
+
+This project implements a compiler for a subset of the C99 programming language. It is designed as an educational tool and reference for students enrolled in the semester-long CS432 compiler course. The goal is to guide students through the process of building a simplified compiler focusing on core compiler components.
+
+---
+
+## Features
+
+The compiler covers the **front end** stages, including:  
+- **Lexical Analysis** (Lexer)  
+- **Syntax Analysis** (Parser)  
+- **Semantic Analysis**  
+- **Intermediate Code Generation** (using Three-Address Code, 3AC)  
+
+---
+
+## Development Environment
+
+- Developed and tested on **Linux Ubuntu 24**  
+  *(Alternatively, Windows users can utilize Windows Subsystem for Linux (WSL) for compatibility)*
+
+---
+
+## Requirements
+
+To compile and build the project, ensure the following tools and versions are installed:
+
+- **Bison** 3.8.2  
+- **Flex** 2.6.4  
+- **GCC** 13.3.0  
+
+---
+
+Feel free to open issues or contribute improvements to enhance this educational compiler project.
+
