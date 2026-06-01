@@ -270,9 +270,9 @@ void check_semantics(ASTNode *node) {
         // Nothing to check pre-order, the statement is handled by the loop
     }
     // Post-order traversal: process children first.
-    //for (int i = 0; i < node->num_children; i++) {
-    //     check_semantics(node->children[i]);
-    //}
+    for (int i = 0; i < node->num_children; i++) {
+         check_semantics(node->children[i]);
+    }
     // Special handling for function definitions to manage scope.
     // This must be done *after* the children have been visited in a generic sense,
     // but we will re-visit the body in the correct scope.
